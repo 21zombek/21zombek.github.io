@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep z odzieżą męską</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0d101f
+}
+
+header {
+    background-color: #1d2344;
+    color: white;
+    padding: 10px 0;
+    
+}
+
+header h1 {
+    text-align: center;
+
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.Sklep {
+    text-align: center;
+    height: 500px;
+    
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.category {
+    background-color: #222329;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #141517;
+    color:white;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+}
+
+.category h2 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.category p {
+    font-size: 16px;
+    color: #black;
+}
+
+.category button {
+    padding: 10px 20px;
+    background-color: #1d2344;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.category button:hover {
+    background-color: #14182e;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Garnitury i odzież męska</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Marynarki</a></li>
+                <li><a href="#">Koszule</a></li>
+                <li><a href="#">Spodnie</a></li>
+                <li><a href="#">Buty</a></li>
+                <li><a href="#">Akcesoria</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="Sklep">
+            <div><img src="https://www.lancerto.com/media/strix/stationary-shop/salony_3.png" style="width:100%;" alt="Sklep"></div>
+        </section>
+        <section class="categories">
+            <div class="category">
+                <h2>Skórzane buty</h2>
+                <div><img src="https://www.wittchen.com/blog/wp-content/uploads/2019/01/meskie-derby-ze-strony.png" style="width:100%" alt="Czarny skórzane buty"></div>
+                <p>Dobrze wykonane buty z dobrego materiału.</p>
+                <button>Dodaj do koszyka - 200zł</button>
+            </div>
+            <div class="category">
+                <h2>Krawat</h2>
+                <div><img src="https://www.luma-milanowek.pl/images/luma-milanowek/69000-70000/KR-013-Meski-krawat-do-garnituru-tkany-zakardowy-jedwabny_%5B69524%5D_568.jpg" style="width: 71.8%" alt="Krawat"></div>
+                <p>Stylowy granatowy krawat.</p>
+                <button>Dodaj do koszyka - 30zł</button>
+            </div>
+            <div class="category">
+                <h2>Marynarka</h2>
+                <img src="https://eleger.pl/hpeciai/a0baa0896c256c15706eebe6f22c5c94/pol_pl_MARYNARKA-MESKA-ARTE-BEIGE-DZIANINOWA-BEZOWA-W-KRATE-643_1.jpg" style="width: 71.6%" alt="Marynarka">
+                <p>Stylowa beżowa marynarka w krate.</p>
+                <button>Dodaj do koszyka - 500zł</button>
+            </div>
+            <div class="category">
+                <h2>Spodnie</h2>
+                <img src="https://pewienpan.pl/pol_il_Brazowe-spodnie-wysoki-stan-z-welnianej-flaneli-4025.jpg" style="width:47.8%;" alt="Spodnie">
+                <p>Eleganckie spodnie do garnituru.</p>
+                <button>Dodaj do koszyka - 300zł</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
